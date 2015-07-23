@@ -1,15 +1,13 @@
 class BikesController < ApplicationController
-  def edit
-  end
-
-  def show
+  def index
   end
 
   def new
   end
 
-  def index
+  def show
   end
 
-
+  def edit
+  end
 end

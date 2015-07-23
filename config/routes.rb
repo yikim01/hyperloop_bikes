@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'bikes/index'
+
+  get 'bikes/new'
+
+  get 'bikes/show'
+
+  get 'bikes/edit'
+
   get 'index/edit'
 
   get 'index/show'
