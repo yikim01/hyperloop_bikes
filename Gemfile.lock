@@ -42,14 +42,9 @@ GEM
       json
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-<<<<<<< HEAD
-    bootstrap-sass (3.2.0.2)
-      sass (~> 3.2)
-=======
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
->>>>>>> 4ba73d44e5fccffd56d41e4478f0320b8d3d0eb2
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
