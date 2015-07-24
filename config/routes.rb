@@ -1,17 +1,22 @@
 Rails.application.routes.draw do
-  get 'bikes/index'
+  
 
-  get 'bikes/new'
+  root "bikes#index"
 
-  get 'bikes/show'
 
-  get 'bikes/edit'
+  get 'bikes', to: 'bikes#index'
 
-  get 'index/edit'
+  get 'bikes/new', to: 'bikes#new'
 
-  get 'index/show'
+  get 'bikes/show/:id', to: 'bikes#show'
 
-  get 'index/new'
+  get 'bikes/:id/edit', to: 'bikes#edit'
+
+  delete 'bikes/destroy/:id', to: 'bikes#destroy'
+
+  put 'bikes/update/:id', to: 'bikes#update'
+
+  post 'bikes', to: 'bikes#create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
